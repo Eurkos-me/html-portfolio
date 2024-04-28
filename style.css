@@ -4,6 +4,10 @@ html {
     color: #4F6F52;
 }
 
+body {
+    overflow: scroll;
+}
+
 .headline {
     color: #1A4D2E;
     vertical-align: top;
@@ -43,15 +47,22 @@ footer {
 }
 
 .menu {
-    text-decoration: none;
-    margin: 10px;
-    color: #4F6F52;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
-table {
-    text-align: left;
+.menulink {
+    text-decoration: none;
+    margin: 10px;
+    color: #F5EFE6;
+    background-color: #1A4D2E;
 }
 
 a:hover {
     text-decoration: underline;
+}
+
+li {
+    margin-bottom: 5px;
 }
